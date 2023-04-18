@@ -31,7 +31,7 @@
 	--feed-width-wide-story: 630px;
 	--feed-sidebar-padding-familiar: 64px;
 	--feed-sidebar-width: 319px;
-	
+	--ig-elevated-background: 255, 255, 255;
 }
 
 ._aatg {
@@ -2106,10 +2106,6 @@ body, button, input, textarea, button, input, textarea {
 .x1h0ha7o {
     padding-left: 2px;
 }
-
-
-
-
 ._afxv {
     left: 0;
 }
@@ -2172,4 +2168,34 @@ body, button, input, label, select, td, textarea {
     background-image: url(img/Instagram_JdnP.png);
 }
 
+.xds687c {
+    right: 0;
+}
+
+
+
+._a9-t {
+    animation: IGCorePill_slideIn 300ms ease-in-out;
+}
+
+._a9-r {
+    -webkit-appearance: none;
+    background: rgb(var(--ig-elevated-background));
+    border: none;
+    border-radius: 22px;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, .2);
+    color: rgb(var(--ig-primary-text));
+    cursor: pointer;
+    display: block;
+    font-weight: var(--font-weight-system-semibold);
+    outline: inherit;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    width: auto;
+    z-index: 1000;
+}
 
